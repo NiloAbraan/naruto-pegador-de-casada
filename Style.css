@@ -2,7 +2,10 @@
     margin:0;
     padding:0;
  }
-cabecalho{
+body{
+font-family: "Rubik Scribble", system-ui;
+.cabecalho
+{
     background-color:#424E61;
     color:white;
     display:flex;
@@ -10,11 +13,37 @@ cabecalho{
     align-items:centen;
     paddng:24px 0;
  }
+    
 .cabecalho - imagem {
     width:20%
  }
-.cabecalho-luta-item{
+    
+.cabecalho-lista-item{
     display:inline-block;
     margin:0 16px;
     font-size:24px;
 }
+
+.escola-imagem {
+    widh: 25%
+}
+
+.escola {
+    background-imagem: linear-gradiend(#424E61, #16CFF80);
+    color: white;
+    display:flex;
+    justify-content: center;
+    padding: 24px 0;
+    }
+
+    .escola-div-conteudo{
+        width: 35%
+    }
+
+    .escola-titulo {
+        padding: 24px 0;
+    }
+
+
+
+
